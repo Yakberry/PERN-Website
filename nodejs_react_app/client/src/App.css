@@ -1,0 +1,362 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Table {
+  position: fixed;
+}
+
+.Doc_content {
+  position: fixed;
+  right: 0px;
+  top: 150px;
+  width: 60%;
+  height: 500px;
+  background-color:#aaaaaa;
+  overflow-y: scroll;
+}
+
+.heading {
+  font-size: 2em;
+  color: red;
+}
+
+.Control_Panel {
+  position: fixed;
+  right: 0px;
+  width: 60%;
+  height: 80px;
+  top:70px;
+  background-color:#940707;
+}
+
+.ButtonControl {
+  display: inline-flex;
+  padding: 0.5em 2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 25px 5em 25px 7em;
+  border-radius: 0.12em;
+  /* text-decoration: none; */
+  /* font-family: 'Roboto',sans-serif; */
+  /* font-weight: 300; */
+ /* color: #170c0c;
+  text-align: center;
+  transition: all 1.2s;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+body{
+  font-family: sans-serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Table {
+  position: fixed;
+}
+
+.Doc_content {
+  position: fixed;
+  right: 0px;
+  top: 130px;
+  left: 450px;
+  /*height: 500px;*/
+  bottom: 0px;
+
+  overflow-y: scroll;
+  padding: 20px;
+  border: 10px solid #009879;
+}
+
+.Doc_content2 {
+  position: fixed;
+  /* right: 0px; */
+  /* top: 0px; */
+  bottom: 0px;
+  left: 0px;
+  /* height: 500px; */
+  /* bottom: 0px; */
+  overflow-y: scroll;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border: 10px solid #009879;
+}
+
+.snake {
+  position: fixed;
+  margin: -5px auto;
+
+}
+
+.heading {
+  position: fixed;
+  top: 100px;
+  font-size: 23px;
+  color: #000000;
+  text-align: center;
+  background-color:#009879;
+  z-index: 5
+
+}
+
+.Control_Panel {
+  position: fixed;
+  right: 0px;
+  /*left: 1180px;*/
+  height: 20px;
+  top:110px;
+  background-color:#009879;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 35px auto auto 80%;
+}
+
+/*.ButtonControl {  <section class="Control_Panel">
+    <button>Vote</button>
+    <button>Download</button>
+    <button>Delete</button>
+  </section>
+
+  .middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 42% auto 39%;
+}
+
+  display: inline-flex;
+  padding: 0.5em 2em;
+  border: 1px solid #9484f2;
+  margin: 0 auto;
+  border-radius: 20% 10%;  0.12em
+  background-color: #5b6dcd;
+  color: #fff;
+  text-align: center;
+  transition: all 1.2s;
+}*/
+
+.ButtonControl {
+  display: inline-flex;
+  padding: 0.5em 2em;
+  border: 1px solid #009879;
+  margin: 0 auto;
+  border-radius: 20% 10%; /* 0.12em */
+  background-color: #fff;
+  color: #009879;
+  text-align: center;
+  transition: all 1.2s;
+  z-index: 5
+  /* text-decoration: none; */
+  /* font-family: 'Roboto',sans-serif; */
+  /* font-weight: 300; */
+}
+
+.button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LabelControl {
+  color: white;
+  z-index: 5;
+  width: 200px;
+  margin-right: 930px;
+  font-family: cursive;
+  font-size: x-large;
+  /* text-decoration: none; */
+  /* font-family: 'Roboto',sans-serif; */
+  /* font-weight: 300; */
+}
+
+.hat {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  background-color: #009879;
+}
+
+
+
+.styled-table {
+  position: fixed;
+  top: 130px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 450px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.table-short {
+  min-width: 60px;
+}
+
+.table-long {
+  min-width: 200px;
+}
+
+.searchform {
+  position: fixed;
+  margin-left: 200px;
+  margin-top: 66px;
+  margin-right: 200px;
+}
+
+.buttonSearch {
+  width: 73px;
+  color: white;
+  background-color: #009879
+}
+
+.styled-table2 {
+  position: fixed;
+  top: 376px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 450px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table2 thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table2 th,
+.styled-table2 td {
+  padding: 12px 15px;
+}
+
+.styled-table2 tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table2 tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table2 tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table2 tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
